@@ -1,0 +1,5 @@
+Actual Text: Arts & Crafts, Expected Text: Arts & Crafts
+Actual Text: Beading & Jewelry Making, Expected Text: Beading & Jewelry Making
+Actual Text: Arts, Crafts & Sewing, Expected Text: Arts, Crafts & Sewing
+Actual Text: Beading & Jewelry Making, Expected Text: Beading & Jewelry Making
+Test passed. Review score is: 4.0

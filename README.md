@@ -1,4 +1,56 @@
 # sdet-automation-test
+
+# How to run project:
+
+
+ ### **Initial Setup:**
+
+To test the project locally:
+* Clone the project on your local machine:
+
+
+      git clone git@github.com:LubobbaArnoldCyprian/sdet-automation-test.git
+
+* open IDE >File >Open(directory of the project).
+
+
+ ### **Packages Installation:**
+* Install the requirements.txt file, open terminal and run command:
+
+
+	  pip install -r requirements.txt
+
+
+* Install additional packages, open terminal and run these commands: 
+
+
+	  pip install selenium
+
+      pip install allure-pytest
+
+
+
+
+ ### **Allure Report Installation:** 
+
+* Run the following command:
+
+
+      npm install -g allure-commandline
+
+
+ ### **Running Tests:**
+ To run the test use the command below.
+
+      pytest --alluredir="./reports"
+
+ ### **View Allure Report:**
+To view generated port, Navigate to project directory in your terminal use command below.
+
+      allure serve "./reports" 
+
+
+
 ## What is Expected?
 This is a code challenge to test your skills related to the development of automated tests. We use pytest with python, 
 and allure for the reports, but feel free to use any framework you are familiar with, as long as you develop it using 
