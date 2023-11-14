@@ -45,7 +45,7 @@ To test the project locally:
       pytest --alluredir="./reports"
 
  ### **View Allure Report:**
-To view generated port, Navigate to project directory in your terminal use command below.
+To view the generated report, Navigate to project directory in your terminal use command below.
 
       allure serve "./reports" 
 
